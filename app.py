@@ -2,9 +2,11 @@
 import streamlit as st
 import numpy as np
 import pickle
+import joblib
 
-# Load the saved model
-model = pickle.load(open('model.pkl', 'rb'))
+package  = joblib.load('model.pkl')
+model    = package['model']
+FEATURES = package['features']
 
 st.set_page_config(page_title="Student Grade Predictor", page_icon="🎓")
 st.title("🎓 Student Final Grade Predictor")
