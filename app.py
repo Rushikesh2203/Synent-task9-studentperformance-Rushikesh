@@ -2,8 +2,8 @@
 import streamlit as st
 import numpy as np
 import pickle
-
 import joblib
+import os
 
 package  = joblib.load('model.pkl')
 model    = package['model']
