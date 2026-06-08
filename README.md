@@ -113,7 +113,7 @@ meaning it explains 86% of the variance in final grades.
 
 🚀 Live Demo
 
-🔗 [Click here to try the app](https://your-streamlit-url.streamlit.app)
+🔗 https://synent-task9-studentperformance-rushikesh-fekedscgsxh2dsxknsmv.streamlit.app/
 
 ---
 
